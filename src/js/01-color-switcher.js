@@ -28,3 +28,14 @@ stopBtn.addEventListener('click', () => {
     startBtn.disabled = false;
     stopBtn.disabled = true;
 });
+
+startBtn.style.width = '70px';
+startBtn.style.height = '40px';
+startBtn.style.textTransform = 'uppercase';
+
+startBtn.style.marginLeft = 'calc(50vw - 150px)';
+startBtn.style.marginTop = 'calc(25vw - 10px)';
+
+stopBtn.style.width = '70px';
+stopBtn.style.height = '40px';
+stopBtn.style.textTransform = 'uppercase';
